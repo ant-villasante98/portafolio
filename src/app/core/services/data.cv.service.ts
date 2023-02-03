@@ -24,7 +24,11 @@ export interface Person {
     in_progress: boolean,
     end_date: string
   }[],
-  technical_skills: {}[],
+  technical_skills: {
+    imag_tech: string,
+    name_skill: string,
+    nivel_skill: number
+  }[],
   wok_exper: string[],
   ability: string[]
   projects: string[],

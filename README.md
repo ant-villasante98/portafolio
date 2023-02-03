@@ -1,6 +1,7 @@
 # Portafolio
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.3.
+Este proyecto esta siendo desarrollado con fin de demostrar mis habilidades de programcion y posteriormente encontrar trabajo. A medida que voy actuallizando el proyecto este esta disponible en `Netlify`
 
 ## Development server
 

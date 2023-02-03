@@ -7,7 +7,6 @@
                     <img class="img-header-page" width="100%" height="100%" src="./assets/foto_perfil.jpg" alt="">
                 </div>
             </div>
-
             <div class="area-container-name-job">
                 <p class="text-name">{{ person?.name }}</p>
                 <div class="container-text-job">
@@ -31,9 +30,34 @@
                     </ul>
                 </div>
             </div>
-            <div>
-                <div *ngFor="let edu of person?.education">
-                    <p>{{ edu.career}}</p>
+            <div class="container-sections">
+                <div class="descr-section">
+                    <div *ngIf="person?.ability?.length">
+                        <p class="descr-s-title">Habilidades</p>
+                        <ul class="list-elem-ability">
+                            <li *ngFor="let abi of person?.ability">
+                                {{abi}}
+                            </li>
+                        </ul>
+                    </div>
+                    <div *ngIf="person?.technical_skills?.length">
+                        <p class="descr-s-title">Competencias Técnicas</p>
+                        <ul class="list-elem-tech-skills">
+                            <li *ngFor="let ts of person?.technical_skills">
+                                <img class="elem-imag-skill" [src]="ts.imag_tech" [alt]="ts.name_skill" srcset="">
+                                <p class="elem-name-skill">{{ts.name_skill}}</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p class="descr-s-title">Educacion</p>
+                        <ul>
+                            <li *ngFor="let edu of person?.education">
+                                {{ edu.career}}
+
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>

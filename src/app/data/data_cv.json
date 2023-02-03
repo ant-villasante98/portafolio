@@ -21,56 +21,67 @@
     ] ,
     "technical_skills":[
         {
-            "name_skills":"HTML5",
-            "nivel_skills":5
+            "imag_tech":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg",
+            "name_skill":"HTML5",
+            "nivel_skill":5
         },
         {
-            "name_skills":"CSS3",
-            "nivel_skills":4
+            "imag_tech":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg",
+            "name_skill":"CSS3",
+            "nivel_skill":4
         },
         {
-            "name_skills":"JavaScript",
-            "nivel_skills":6
+            "imag_tech":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg",
+            "name_skill":"JavaScript",
+            "nivel_skill":6
+        },{
+            "imag_tech":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg",
+            "name_skill":"TypeScript",
+            "nivel_skill":6
+        },
+        {   
+            "imag_tech":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-plain.svg",
+            "name_skill":"Angular",
+            "nivel_skill":7
         },
         {
-            "name_skills":"Angular",
-            "nivel_skills":7
+            "imag_tech":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg",
+            "name_skill":"Express.js",
+            "nivel_skill":4
         },
         {
-            "name_skills":"Express.js",
-            "nivel_skills":5
+            "imag_tech":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original-wordmark.svg",
+            "name_skill":"Webpack",
+            "nivel_skill":5
         },
         {
-            "name_skills":"Webpack",
-            "nivel_skills":5
+            "imag_tech":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg",
+            "name_skill":"Node.js",
+            "nivel_skill":6
         },
         {
-            "name_skills":"Node.js",
-            "nivel_skills":7
+            "imag_tech":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain-wordmark.svg",
+            "name_skill":"Mongoose",
+            "nivel_skill":3
         },
         {
-            "name_skills":".Net",
-            "nivel_skills":3
+            "imag_tech":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain-wordmark.svg",
+            "name_skill":"Git",
+            "nivel_skill":5
         },
         {
-            "name_skills":"Mongoose",
-            "nivel_skills":5
+            "imag_tech":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg",
+            "name_skill":"GitHut",
+            "nivel_skill":3
         },
         {
-            "name_skills":"Git",
-            "nivel_skills":5
-        },
-        {
-            "name_skills":"GitHut",
-            "nivel_skills":4
-        },
-        {
-            "name_skills":"Linux",
-            "nivel_skills":6
+            "imag_tech":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ubuntu/ubuntu-plain-wordmark.svg",
+            "name_skill":"Ubuntu",
+            "nivel_skill":5
         }
     ],
   "wok_exper": [],
-  "ability": ["honestidad", "deseo de desarrollo profesional" , "creatividad", "aprendizaje continuo", "resolución de conflictos", "flexibilidad para poder"],
+  "ability": ["honestidad", "deseo de desarrollo profesional" , "creatividad", "aprendizaje continuo", "resolución de conflictos", "flexibilidad para poder adaptarse a las propuestas de otros compañeros"],
   "projects": ["proyecto de la facultad desarrollado en Angular","apoyo a proyectos independientes"],
   "lang": ["españos -nativo"],
   "voluntary_work": ["club de Leones - actividades de apoyo a la comunidad",

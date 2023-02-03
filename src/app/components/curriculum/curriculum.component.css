@@ -2,6 +2,10 @@
 .page-background{
     display: flex;
     flex-direction: column; 
+    overflow: hidden;
+
+    /* font-family: 'Itim', cursive; */
+    font-family: 'Ubuntu', sans-serif;
 
 
 }
@@ -13,29 +17,32 @@
 .shade-page{
     position: absolute;
     width: 110%;
-    height: 110%;
+    height: 100%;
     border-radius: 20px;
     background-color: var(--color-shade-page);
     z-index: -1;
-    transform: rotateZ(-10deg) translateX(-5%);
+    transform: rotateZ(-8deg) translate(-5%, -4% );
 }
 .container-page{
     display: grid;
-    grid-template-columns: 14rem auto ;
-    grid-template-rows: 14rem auto;
+    box-sizing: border-box;
+    grid-template-columns: 220px 500px ;
+    grid-template-rows: 220px auto;
     overflow: hidden;
-    background-color: var(--color-bg-page);
+    /* background-color: var(--color-bg-page); */
+    backdrop-filter: blur(20px);
     min-height: 100vh;
+    width: 100%;
     box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.6),6px 8px 15px rgba(0, 0, 0, 0.4),8px 12px 15px rgba(0, 0, 0, 0.2) ;
     padding: 20px;
     border-radius: 2px;
-    gap: 0 2rem;
+    gap: 0 40px;
     border-radius: 20px;
 }
 .color-contrast{
-    background-color: var(--color-contrast-page);
+    background-color: var(--color-contrast-page) ;
     color: floralwhite;
-    border-radius: 17%;
+    border-radius: 20px;
 }
 
 .area-container-name-job{
@@ -97,6 +104,7 @@
     
     font-size: 1.8rem;
     border: 4px solid floralwhite;
+    border-radius: 5px;
     padding: 10px 15px;
     margin: 0;
     font-weight: bold;
@@ -117,3 +125,63 @@ li{
 .list-contact-info li{
     margin: 15px;
 }
+.descr-section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Estilos de la seccion de habilidades */
+.descr-s-title{
+    /* background-color: var(--color-shade-page); */
+    /* background-color: rgba(255, 255, 255, 0.2); */
+    /* backdrop-filter: sepia(80%); */
+    border-bottom: 2px solid rgba(255, 255, 255, 0.7);
+    border-left: 2px solid rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    position: relative;
+    height: 1.8rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    line-height:1.8rem;
+    vertical-align: middle;
+    padding-left: 10px;
+    left: -15px;
+}
+.list-elem-ability{
+    list-style: outside url(src/app/data/style_list.svg);
+    padding-inline-start: 20px;
+    font-size: 1.1rem;
+}
+.list-elem-ability > li{
+    display: list-item;
+    margin-bottom: 6px;
+}
+/* transforma en mayuscula la primera letra de una oracion */
+.list-elem-ability li:first-letter{
+    text-transform: uppercase;
+}
+/* Estilos de la seccion de competnecias tecnicas */
+.list-elem-tech-skills{
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.list-elem-tech-skills p{
+    margin: 0;
+    width: 80px;
+}
+.elem-imag-skill{
+    display: block;
+    margin: auto;
+    height: 60px;
+    margin-bottom: 5px;
+}
+.elem-name-skill{
+
+    text-align: center;
+}
+
+
