@@ -1,17 +1,41 @@
 <div class="page-background">
-    <div class="container-page">
-        <div class="color-contrast">
-            <div class="container-img">
-                <img class="img-header-page" width="100%" height="100%" src="./assets/foto_perfil.jpg"
-                    alt="foto de Antonio">
+    <div class="wrap-page">
+        <div class="shade-page"></div>
+        <div class="container-page" *ngIf="(dataPerson|async) as person">
+            <div class="color-contrast">
+                <div class=" container-img">
+                    <img class="img-header-page" width="100%" height="100%" src="./assets/foto_perfil.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="area-container-name-job">
+                <p class="text-name">{{ person?.name }}</p>
+                <div class="container-text-job">
+                    <span class="border-top-job"></span>
+                    <p class="text-job">
+                        {{person?.job}}
+                    </p>
+                    <span class="border-top-job"></span>
+                </div>
+            </div>
+            <div class=" color-contrast">
+                <div class="container-contact">
+                    <p class="text-contact">
+                        contact
+                    </p>
+                    <ul class="list-contact-info">
+                        <li> <span></span> {{person?.contact?.email}}</li>
+                        <li> <span></span>{{person?.contact?.telf1}}</li>
+                        <li> <span></span>{{person?.contact?.telf2}}</li>
+
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <div *ngFor="let edu of person?.education">
+                    <p>{{ edu.career}}</p>
+                </div>
             </div>
         </div>
-
-        <div class="area-container-name">
-            <p class="text-name">helí antonio villasante hilares</p>
-            <p class="text-job">programdor web</p>
-        </div>
-        <div class="color-contrast">contacto</div>
-        <div>otro2</div>
     </div>
 </div>

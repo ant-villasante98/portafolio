@@ -9,10 +9,11 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 :root {
-    --color-bg-body: #F1D3B3;
-    --color-bg-page: #C7BCA1;
-    --color-contrast-page: #8B7E74;
-    --color-bg-area-name: #65647C
+    --color-bg-body: #E0C097;
+    --color-bg-page: #E0C097;
+    --color-contrast-page: #2D2424;
+    --color-bg-area-name: #5C3D2E;
+    --color-shade-page: #B85C38;
 }
 html {
     line-height: 1.15;
