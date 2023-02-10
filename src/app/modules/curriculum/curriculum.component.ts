@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { map, Observable, switchMap } from 'rxjs';
+import { map, Observable } from 'rxjs';
 import { DataCvService, Person } from 'src/app/core/services/data.cv.service';
 
 @Component({
@@ -9,16 +9,16 @@ import { DataCvService, Person } from 'src/app/core/services/data.cv.service';
 })
 export class CurriculumComponent {
   dataPerson: Observable<Person>;
-  contador: number = 0;
+  cont: number = 0;
 
 
 
 
-  constructor(private sharinServices: DataCvService) {
-    this.dataPerson = sharinServices.sharingObservablePerson
+  constructor(private dataService: DataCvService) {
+    this.dataPerson = dataService.observablePersonData
       .pipe(map((res) => {
         if (res.wok_exper) res.contact;
-        console.log(this.contador++)
+        console.log(this.cont++)
         return res
       })
       )

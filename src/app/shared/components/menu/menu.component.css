@@ -1,0 +1,31 @@
+.nav-menu{
+    display: flex;
+    z-index: 3;
+    height: 60px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+    border-right: 1px solid #35343556;
+    overflow: hidden;
+    background-color:#232223 ;
+    transition: width 2s;
+    padding: 0 24px;
+    
+}
+/* .nav-menu:hover{
+    width: max-content;
+} */
+
+.nav-container-buttoms{
+    display: flex;
+    gap: 0 30px;
+    padding: 0 10px;
+    /* margin-right: calc(200px); */
+}
+/* .nav-container-buttoms:hover{
+    width: 100%;
+} */
+.nav-container-buttoms li{
+    margin: 10px 0;
+}

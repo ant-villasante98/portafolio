@@ -42,20 +42,20 @@ export interface Person {
 })
 export class DataCvService {
   dataPerson: Person = dataCvJson;
-  private sharingObservablePersonPrivate: BehaviorSubject<Person> = new BehaviorSubject(this.dataPerson);
+  // private observablePersonDataPrivate: BehaviorSubject<Person> = new BehaviorSubject(this.dataPerson);
 
   constructor() {
 
   }
 
-  get sharingObservablePerson(): Observable<Person> {
+  get observablePersonData(): Observable<Person> {
     return of(this.dataPerson)
   }
-  /* get sharingObservablePerson() {
-    return this.sharingObservablePersonPrivate.asObservable();
+  /* get observablePersonData() {
+    return this.observablePersonDataPrivate.asObservable();
   } */
-  /* set sharingObservablePersonData(data: Person) {
-    this.sharingObservablePersonPrivate.next(data);
+  /* set observablePersonDataData(data: Person) {
+    this.observablePersonDataPrivate.next(data);
 
   } */
 }

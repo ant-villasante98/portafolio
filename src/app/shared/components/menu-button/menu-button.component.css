@@ -1,0 +1,34 @@
+.wrap-buttom a{
+    display: block;
+}
+
+.container-text-img{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 20px;
+    align-items: center;
+    /* width: max-content; */
+}
+.wrap-img-buttom{
+    /* tamaño de la imagen */
+    height: 30px;
+    aspect-ratio: 1/1;
+}
+.img-buttom{
+    width: 100%;
+    height: 100%;
+    /* height: 70px;
+    aspect-ratio: 1/1; */
+}
+.container-text-img span{
+    font-size: 1.2rem;
+    color: var(--color-cv-contrast-text);
+    white-space: nowrap;
+}
+.container-text-img span::first-letter{
+    text-transform: uppercase;
+}
+.not-img{
+    display: none;
+}

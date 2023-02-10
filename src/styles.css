@@ -11,9 +11,17 @@
 :root {
     --color-bg-body: #E0C097;
     --color-bg-page: #E0C097;
-    --color-contrast-page: #2D2424;
-    --color-bg-area-name: #5C3D2E;
+    /* --color-contrast-page: #2D2424; */
+    /* color de la ventan de la terminal
+    --color-contrast-page: #232223; */
+    --color-contrast-page: transparent;
+    --color-bg-area-name: transparent;
     --color-shade-page: #B85C38;
+    --color-cv-contrast-text:#fefffe;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
 }
 html {
     line-height: 1.15;
@@ -30,8 +38,12 @@ html {
  */
 
 body {
+    position: relative;
     margin: 0;
-    overflow-x: hidden;
+    font-family: 'Ubuntu', sans-serif;
+    color: #fefffe;
+    width: 100vw;
+
 }
 
 /**
@@ -136,8 +148,22 @@ samp {
 small {
     font-size: 80%;
 }
+ul {
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: block;
+}
 
 /**
  * Prevent `sub` and `sup` elements from affecting the line height in
  * all browsers.
  */
+
+ a {
+    text-decoration: none;
+    color: var(--color-cv-contrast-text);
+ }

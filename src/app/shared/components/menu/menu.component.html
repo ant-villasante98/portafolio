@@ -1,0 +1,9 @@
+<nav class="nav-menu">
+    <a href="#">AV</a>
+
+    <ul class="nav-container-buttoms">
+        <li *ngFor="let item of itemsMenu">
+            <app-menu-button [nombre]="item.nombre" [ruta]="item.ruta"></app-menu-button>
+        </li>
+    </ul>
+</nav>
