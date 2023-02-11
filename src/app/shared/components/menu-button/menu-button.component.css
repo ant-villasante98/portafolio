@@ -1,5 +1,9 @@
-.wrap-buttom a{
-    display: block;
+.wrap-buttom{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 .container-text-img{

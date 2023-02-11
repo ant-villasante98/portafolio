@@ -83,14 +83,17 @@
 }
 @media (max-width:575px) {
     .ic-wrap-inicio{
-        height: 90%;
-        width: 90%;
+        /* min-width: 400px; */
+        
+        min-height: 550px;
+        min-width: 300px;
+        width: 80%;
     }
  
     .ic-container-imag {
         position: absolute;
         bottom: 0;
-        left: -40px;
+        left: -30px;
     }
     .ic-container-imag svg{
         width: 250px;

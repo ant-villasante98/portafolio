@@ -16,6 +16,10 @@
 /* .nav-menu:hover{
     width: max-content;
 } */
+.elm-nav-incio{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
 
 .nav-container-buttoms{
     display: flex;
@@ -29,3 +33,114 @@
 .nav-container-buttoms li{
     margin: 10px 0;
 }
+.btm-nav-toggler{
+    display: none;
+    background-color: transparent;
+    border: 2px solid var(--color-cv-contrast-text);
+    opacity: .8;
+    border-radius: 5px ;
+}
+.btm-nav-icon{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    color: var(--color-cv-contrast-text);
+    /* background-color: transparent; */
+}
+.nbim{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(src/assets/svg/menu_bars.svg)
+}
+.nbic{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(src/assets/svg/menu_close.svg)
+}
+
+.btm-nav-toggler:hover{
+    border-color: var(--color-cv-contrast-text);
+}
+.wrap-nav-btm-collapse{
+    display: none;
+    position: relative;
+    flex-direction: row;
+    height: 60px;
+    width: 100%;
+    padding: 0 24px;
+
+    background-color: #232223;
+    justify-content: right;
+    align-items: center;
+}
+.text-head-nav-collapse{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) ;
+}
+
+
+@media (max-width:575px) {
+    .btm-nav-toggler{
+        display: block;
+    }
+    
+    .nav-collapse{
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        backdrop-filter: blur(40px);
+    }
+    .nav-collapse::before {
+        content: '';
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 100vw;
+        z-index: -1;
+        opacity: .7;
+        background-color: #232223;
+    }
+    .nav-container-buttoms{
+        flex-direction: column;
+        padding: 25px 0;
+        align-items: center;
+        width: 100%;
+        height: calc(100vh - 60px);
+        transition: opacity .8s;
+        opacity: 1;
+    }
+
+    
+    .nav-container-buttoms li{
+        width: 200px;
+        height: 60px;
+        font-weight: 500;
+        font-size: 1.5rem;
+        /* border-bottom: 1px solid var(--color-cv-contrast-text); */
+        /* background-color: #232223; */
+        border-radius: 9px;
+        /* backdrop-filter: blur(50px); */
+        box-shadow: 5px 4px 5px rgba(250,250,250,.2 ),8px 10px 10px rgba(250,250,250,.03 );
+    }
+    .nav-menu-show{
+        display: flex;
+        
+    }
+    /* .nav-menu-btm-menu-show{
+        display: flex;
+
+    } */
+    
+}
+
+
+
+

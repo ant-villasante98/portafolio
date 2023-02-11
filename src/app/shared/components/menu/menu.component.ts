@@ -35,4 +35,6 @@ export class MenuComponent {
 
   ]
 
+  nav_collapse = false;
+
 }

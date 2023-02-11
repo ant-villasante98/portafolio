@@ -1,9 +1,27 @@
 <nav class="nav-menu">
-    <a href="#">AV</a>
+    <a class="elm-nav-incio" routerLink="/inicio">AV</a>
 
-    <ul class="nav-container-buttoms">
-        <li *ngFor="let item of itemsMenu">
-            <app-menu-button [nombre]="item.nombre" [ruta]="item.ruta"></app-menu-button>
-        </li>
-    </ul>
+    <div>
+
+        <button class="btm-nav-toggler" (click)="nav_collapse=!nav_collapse">
+            <span class="btm-nav-icon nbim"></span>
+        </button>
+        <!-- {{nav_collapse?'nav-menu-show':''}} -->
+        <div class="nav-collapse {{nav_collapse?'nav-menu-show':''}}">
+            <div class="wrap-nav-btm-collapse {{nav_collapse?'nav-menu-show':''}}">
+                <span class="text-head-nav-collapse elm-nav-incio">AV</span>
+
+                <button class="btm-nav-toggler" (click)="nav_collapse=!nav_collapse">
+                    <span class="btm-nav-icon nbic"></span>
+                </button>
+            </div>
+
+            <ul class="nav-container-buttoms nav-menu-show">
+                <li *ngFor="let item of itemsMenu">
+                    <app-menu-button [nombre]="item.nombre" [ruta]="item.ruta"></app-menu-button>
+                    <span></span>
+                </li>
+            </ul>
+        </div>
+    </div>
 </nav>
