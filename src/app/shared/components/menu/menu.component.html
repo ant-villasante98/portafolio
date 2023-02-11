@@ -6,9 +6,10 @@
         <button class="btm-nav-toggler" (click)="nav_collapse=!nav_collapse">
             <span class="btm-nav-icon nbim"></span>
         </button>
-        <!-- {{nav_collapse?'nav-menu-show':''}} -->
+
+        <!-- Falta la funcionalidad del nav cuando colapsa -->
         <div class="nav-collapse {{nav_collapse?'nav-menu-show':''}}">
-            <div class="wrap-nav-btm-collapse {{nav_collapse?'nav-menu-show':''}}">
+            <div #btn_mc class="wrap-nav-btm-collapse {{nav_collapse?'nav-menu-show':''}}">
                 <span class="text-head-nav-collapse elm-nav-incio">AV</span>
 
                 <button class="btm-nav-toggler" (click)="nav_collapse=!nav_collapse">
@@ -16,7 +17,7 @@
                 </button>
             </div>
 
-            <ul class="nav-container-buttoms nav-menu-show">
+            <ul #list_btn_nav class="nav-container-buttoms" (click)="clickClose()">
                 <li *ngFor="let item of itemsMenu">
                     <app-menu-button [nombre]="item.nombre" [ruta]="item.ruta"></app-menu-button>
                     <span></span>

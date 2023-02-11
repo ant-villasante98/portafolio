@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ElementRef } from '@angular/core';
 
 @Component({
   selector: 'app-menu',
@@ -36,5 +36,14 @@ export class MenuComponent {
   ]
 
   nav_collapse = false;
+  // clickClose(elem: ElementRef<HTMLElement>) {
+  //   elem.nativeElement.addEventListener(ev => {
 
+  //   })
+
+  // }
+  clickClose() {
+    console.log('click en elemento')
+    this.nav_collapse = false
+  }
 }
