@@ -1,3 +1,23 @@
-<div style="display: flex;width: 100%;height: 100%;justify-content: center; align-items: center;">
-    <span style="color: greenyellow;background-color: red;"> EN CONSTRUCCION</span>
+<div style="justify-content: center; align-items: center; position: absolute; left: 0; top: 0;">
+    <span style="color: greenyellow;background-color: red ;font-size: 1.4rem;"> EN CONSTRUCCION</span>
+    <!-- <img src="https://screenshot-proxy.netlify.app/f_jpg,w_204/https://d33wubrfki0l68.cloudfront.net/63e7d6033e675e00088f02aa/screenshot_2023-02-11-17-53-42-0000.png"
+        alt="" width="102" height="64" loading="lazy" class="tw-align-top"> -->
+</div>
+
+<div class="wrap-portafolio">
+    <div class="container-border-shadow">
+        <p class="text-name-container">Portafolio</p>
+        <div class="pc-container-grid">
+            <div class="item-grid" *ngFor="let e of elemPortafolio">
+                <!-- <div class="img-item-container">
+                </div> -->
+                <img class="img-item" [src]="e.img" alt="{{e.nombre}}">
+                <div class="text-item">
+                    <p>{{e.nombre}}</p>
+                </div>
+                <a class="link-item" [href]="e._url"></a>
+            </div>
+
+        </div>
+    </div>
 </div>
