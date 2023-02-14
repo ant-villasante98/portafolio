@@ -5,14 +5,17 @@ import { InicioComponent } from './modules/inicio/inicio.component';
 const routes: Routes = [
   {
     path: 'portafolio',
+    title: 'Portafolio',
     loadChildren: () => import('./modules/portafolio/portafolio.module').then(m => m.PortafolioModule)
   },
   {
     path: 'cv',
+    title: 'CV',
     loadChildren: () => import('./modules/curriculum/curriculum.module').then(m => m.CurriculumModule)
   },
   {
     path: 'inicio',
+    title: 'Antonio Villasante',
     loadChildren: () => import('./modules/inicio/inicio.module').then(m => m.InicioModule)
   },
   {

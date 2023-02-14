@@ -20,7 +20,7 @@
             <ul #list_btn_nav class="nav-container-buttoms" (click)="clickClose()">
                 <li *ngFor="let item of itemsMenu">
                     <app-menu-button [nombre]="item.nombre" [ruta]="item.ruta"></app-menu-button>
-                    <span></span>
+                    <span class="line-text-nav"></span>
                 </li>
             </ul>
         </div>

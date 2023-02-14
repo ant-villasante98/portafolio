@@ -12,6 +12,7 @@
     flex-wrap: nowrap;
     gap: 20px;
     align-items: center;
+    color: white;
     /* width: max-content; */
 }
 .wrap-img-buttom{
