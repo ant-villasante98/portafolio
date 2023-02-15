@@ -3,16 +3,16 @@
 
     <div>
 
-        <button class="btm-nav-toggler" (click)="nav_collapse=!nav_collapse">
+        <button class="btm-nav-toggler" (click)="nav_collapse=true">
             <span class="btm-nav-icon nbim"></span>
         </button>
 
-        <!-- Falta la funcionalidad del nav cuando colapsa -->
+
         <div class="nav-collapse {{nav_collapse?'nav-menu-show':''}}">
             <div #btn_mc class="wrap-nav-btm-collapse {{nav_collapse?'nav-menu-show':''}}">
                 <span class="text-head-nav-collapse elm-nav-incio">AV</span>
 
-                <button class="btm-nav-toggler" (click)="nav_collapse=!nav_collapse">
+                <button class="btm-nav-toggler" (click)="nav_collapse=false">
                     <span class="btm-nav-icon nbic"></span>
                 </button>
             </div>

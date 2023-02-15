@@ -1,4 +1,4 @@
-.ic-main-inico{
+.ic-main-inico {
     display: flex;
     position: relative;
     width: 100%;
@@ -7,7 +7,7 @@
     justify-content: center;
 }
 
-.ic-wrap-inicio{
+.ic-wrap-inicio {
 
     /* problemas con el estas propiedades --verificar--- */
     /* position: absolute;
@@ -19,13 +19,13 @@
 
     border-radius: 20px;
     box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3), 4px 8px 20px rgba(0, 0, 0, 0.5);
-    width: 600px;
+    width: min(90%, 600px);
     height: 400px;
     backdrop-filter: blur(6px);
-    
+
 }
 
-.ic-container-inicio{
+.ic-container-inicio {
     overflow: hidden;
     position: relative;
     width: 100%;
@@ -36,40 +36,47 @@
 }
 
 
-.text-start{
+.text-start {
     display: block;
     font-family: monospace;
-    
+
     font-size: 1.9rem;
     font-weight: 700;
     overflow: hidden;
     margin-top: 10px;
 }
-.text-start span{
+
+.text-start span {
     margin-bottom: 20px;
     /* white-space: nowrap; */
 }
-.sl{
+
+.sl {
     display: block;
 }
-.promt-text-start-animation{
-    font-family:inherit ;
+
+.promt-text-start-animation {
+    font-family: inherit;
     font-weight: 900;
-    animation: promt 1s normal infinite ;
-    
+    animation: promt 1s normal infinite;
+
 }
+
 @keyframes promt {
-    50%{
+    50% {
         opacity: 1;
     }
-    54%{
+
+    54% {
         opacity: 0;
     }
-    100%{
+
+    100% {
         opacity: 0;
     }
 }
-.ic-container-imag{
+
+.ic-container-imag {
     width: min-content;
     position: absolute;
     bottom: 0;
@@ -77,32 +84,35 @@
 
     margin: auto;
 }
-.ic-container-imag svg{
+
+.ic-container-imag svg {
     width: 300px;
     height: 100%;
 }
+
 @media (max-width:575px) {
-    .ic-wrap-inicio{
+    .ic-wrap-inicio {
         /* min-width: 400px; */
-        
+
         min-height: 550px;
         min-width: 300px;
         width: 80%;
     }
- 
+
     .ic-container-imag {
         position: absolute;
         bottom: 0;
         left: -30px;
     }
-    .ic-container-imag svg{
+
+    .ic-container-imag svg {
         width: 250px;
     }
- /* .ic-container-inicio{
+
+    /* .ic-container-inicio{
     overflow: visible;
  } */
-    .text-start{
+    .text-start {
         text-align: center;
     }
-    
 }
