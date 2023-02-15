@@ -1,19 +1,12 @@
-
-.page-background{
+.page-background {
     position: relative;
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     overflow: hidden;
-     
-    /* background-color: #ee5522;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 200 200'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='100' y1='33' x2='100' y2='-3'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='100' y1='135' x2='100' y2='97'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='%23d23d09' fill-opacity='0.6'%3E%3Crect x='100' width='100' height='100'/%3E%3Crect y='100' width='100' height='100'/%3E%3C/g%3E%3Cg fill-opacity='0.5'%3E%3Cpolygon fill='url(%23a)' points='100 30 0 0 200 0'/%3E%3Cpolygon fill='url(%23b)' points='100 100 0 130 0 100 200 100 200 130'/%3E%3C/g%3E%3C/svg%3E");; */
 
-    /* font-family: 'Itim', cursive; */
     font-family: 'Ubuntu', sans-serif;
 }
-/* .bg-mj{
-    background-color: aliceblue;
-} */
+
 .page-background:before {
     content: ' ';
     display: block;
@@ -27,17 +20,18 @@
     background-image: linear-gradient(30deg, #300b25 12%, transparent 12.5%, transparent 87%, #300b25 87.5%, #300b25), linear-gradient(150deg, #300b25 12%, transparent 12.5%, transparent 87%, #300b25 87.5%, #300b25), linear-gradient(30deg, #300b25 12%, transparent 12.5%, transparent 87%, #300b25 87.5%, #300b25), linear-gradient(150deg, #300b25 12%, transparent 12.5%, transparent 87%, #300b25 87.5%, #300b25), linear-gradient(60deg, #300b2577 25%, transparent 25.5%, transparent 75%, #300b2577 75%, #300b2577), linear-gradient(60deg, #300b2577 25%, transparent 25.5%, transparent 75%, #300b2577 75%, #300b2577);
     background-size: 54px 95px;
     background-position: 0 0, 0 0, 27px 47px, 27px 47px, 0 0, 27px 47px;
-    
+
 }
 
-.wrap-page{
+.wrap-page {
 
     color: var(--color-cv-contrast-text);
     width: 800px;
     margin: 60px auto;
     position: relative;
 }
-.shade-page{
+
+.shade-page {
     display: none;
     position: absolute;
     width: 110%;
@@ -45,30 +39,30 @@
     border-radius: 20px;
     background-color: var(--color-shade-page);
     z-index: -1;
-    transform: rotateZ(-8deg) translate(-5%, -4% );
+    transform: rotateZ(-8deg) translate(-5%, -4%);
 }
-.container-page{
+
+.container-page {
     display: grid;
-    grid-template-columns: 220px 500px ;
+    grid-template-columns: 220px 500px;
     grid-template-rows: 220px auto;
     overflow: hidden;
-    /* background-color: var(--color-bg-page); */
     backdrop-filter: blur(12px);
     min-height: 100vh;
     width: 100%;
-    /* box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.6),6px 8px 15px rgba(0, 0, 0, 0.4),8px 12px 15px rgba(0, 0, 0, 0.2) ; */
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
     padding: 20px;
     border-radius: 2px;
     gap: 0 40px;
     border-radius: 20px;
 }
-.color-contrast{
-    background-color: var(--color-contrast-page) ;
+
+.color-contrast {
+    background-color: var(--color-contrast-page);
     border-radius: 20px;
 }
 
-.area-container-name-job{
+.area-container-name-job {
     background-color: var(--color-bg-area-name);
     padding: 20px;
     display: flex;
@@ -77,54 +71,61 @@
     align-items: center;
     font-size: 2.4rem;
     text-transform: capitalize;
-    border-radius: 0 50px ;
+    border-radius: 0 50px;
 }
-.container-text-job{
+
+.container-text-job {
     /* width: 100%; */
     padding: auto;
 }
-.text-name,.text-job{
+
+.text-name,
+.text-job {
     margin: 0;
     font-weight: bold;
     text-align: center;
 }
-.text-job{
+
+.text-job {
     font-size: 2rem;
     margin: 0 5px;
 }
 
-.text-job , .border-top-job{
+.text-job,
+.border-top-job {
     display: inline-block;
 
 }
-.border-top-job{
+
+.border-top-job {
 
     width: 2.5rem;
     height: 0.8rem;
     border-top: 5px solid black;
 }
-/* .div-container-imag{
-    border-radius: 20px 0 0 0;
-} */
 
-.img-header-page{
+
+.img-header-page {
     box-sizing: border-box;
-    border: 10px double var(--color-cv-contrast-text) ;
+    border: 10px double var(--color-cv-contrast-text);
     border-radius: 50%;
 }
-.container-img{
+
+.container-img {
 
     margin: 5px;
 }
-.container-contact{
+
+.container-contact {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     align-items: center;
     margin-top: 50px;
 }
-.text-contact{
+
+.text-contact {
     text-transform: capitalize;
-    
+
     font-size: 1.8rem;
     border: 4px solid floralwhite;
     border-radius: 5px;
@@ -133,14 +134,16 @@
     font-weight: bold;
 }
 
-.list-contact-info{
+.list-contact-info {
     margin-top: 20px;
-    font-size: 1.2rem;   
+    font-size: 1.2rem;
 }
-.list-contact-info li{
+
+.list-contact-info li {
     margin: 15px;
 }
-.descr-section{
+
+.descr-section {
     display: flex;
     flex-direction: column;
     margin-top: 20px;
@@ -148,10 +151,8 @@
 }
 
 /* Estilos de la seccion de habilidades */
-.descr-s-title{
-    /* background-color: var(--color-shade-page); */
-    /* background-color: rgba(255, 255, 255, 0.2); */
-    /* backdrop-filter: sepia(80%); */
+.descr-s-title {
+
     margin: 20px 0;
     border-bottom: 2px solid rgba(255, 255, 255, 0.7);
     border-left: 2px solid rgba(255, 255, 255, 0.8);
@@ -160,53 +161,60 @@
     height: 1.8rem;
     font-size: 1.3rem;
     font-weight: 600;
-    line-height:1.8rem;
+    line-height: 1.8rem;
     vertical-align: middle;
     padding-left: 10px;
     left: -15px;
 }
-.list-elem-ability{
+
+.list-elem-ability {
     list-style: outside url(src/app/data/style_list.svg);
     padding-inline-start: 20px;
     font-size: 1.1rem;
 }
-.list-elem-ability > li{
+
+.list-elem-ability>li {
     display: list-item;
     margin-bottom: 6px;
 }
+
 /* transforma en mayuscula la primera letra de una oracion */
-.list-elem-ability li:first-letter{
+.list-elem-ability li:first-letter {
     text-transform: uppercase;
 }
+
 /* Estilos de la seccion de competnecias tecnicas */
-.list-elem-tech-skills{
+.list-elem-tech-skills {
     width: 100%;
     display: flex;
     gap: 15px;
     flex-wrap: wrap;
 }
-.list-elem-tech-skills p{
+
+.list-elem-tech-skills p {
     margin: 0;
     width: 80px;
 }
-.elem-imag-skill{
+
+.elem-imag-skill {
     display: block;
     margin: auto;
     height: 60px;
     margin-bottom: 5px;
 }
-.elem-name-skill{
+
+.elem-name-skill {
 
     text-align: center;
 }
-@media print{
-    .page-background{
+
+@media print {
+    .page-background {
         background: none;
         margin: 0;
     }
-    .page-background::before{
+
+    .page-background::before {
         background: none;
     }
 }
-
-
