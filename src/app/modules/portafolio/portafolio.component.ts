@@ -22,16 +22,6 @@ export class PortafolioComponent {
             nombre: 'Consulta de Paises',
             _url: '',
             img: 'https://screenshot-proxy.netlify.app/f_jpg,w_204/https://d33wubrfki0l68.cloudfront.net/63e7d6033e675e00088f02aa/screenshot_2023-02-11-17-53-42-0000.png'
-        },
-        {
-            nombre: 'Pagina1',
-            _url: 'https://controlador-stock.netlify.app/',
-            img: 'https://screenshot-proxy.netlify.app/f_avif,w_204/https://d33wubrfki0l68.cloudfront.net/63d2f63f79f5e1005282ee90/screenshot_2023-01-26-21-54-05-0000.png'
-        },
-        {
-            nombre: 'Pagina2',
-            _url: '',
-            img: 'https://screenshot-proxy.netlify.app/f_avif,w_204/https://d33wubrfki0l68.cloudfront.net/63d2f63f79f5e1005282ee90/screenshot_2023-01-26-21-54-05-0000.png'
         }
     ]
 

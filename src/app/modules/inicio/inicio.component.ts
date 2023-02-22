@@ -28,7 +28,7 @@ export class InicioComponent implements OnInit {
       setTimeout(() => {
         res();
       },
-        200 * Math.random()
+        150 * Math.random()
       )
     }
     )

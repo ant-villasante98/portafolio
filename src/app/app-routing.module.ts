@@ -19,6 +19,10 @@ const routes: Routes = [
     loadChildren: () => import('./modules/inicio/inicio.module').then(m => m.InicioModule)
   },
   {
+    path: 'sobre-mi',
+    loadChildren: () => import('./modules/sobre-mi/sobre-mi.module').then(m => m.SobreMiModule)
+  },
+  {
     path: '',
     redirectTo: '/inicio',
     pathMatch: 'full'

@@ -1,4 +1,4 @@
-.wrap-portafolio{
+.wrap-portafolio {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -6,29 +6,32 @@
     min-height: 100%;
     padding: 20px 0;
 }
-.container-border-shadow{
+
+.container-border-shadow {
     display: flex;
     flex-direction: column;
     gap: 25px;
     align-items: center;
     padding: 30px 20px 50px;
     min-width: 310px;
-    width: min(95%,450px);
-    height:  100%;
+    width: min(95%, 450px);
+    height: 100%;
     margin: auto;
     border-radius: 20px;
     box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3),
         4px 8px 20px rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(6px);
 }
-.text-name-container{
+
+.text-name-container {
     font-size: 1.3rem;
     font-weight: 600;
 }
-.pc-container-grid{
+
+.pc-container-grid {
     display: grid;
     /* grid-template-columns: minmax(250px,90%); */
-    grid-template-columns: repeat(auto-fill,minmax(min(100%,280px),1fr));
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr));
     justify-content: center;
     gap: 20px;
     padding: 0 10px;
@@ -36,42 +39,41 @@
     width: 100%;
 }
 
-.item-grid{
+.item-grid {
+    background-color: black;
     display: flex;
     position: relative;
     border-radius: 10px;
-    /* border: 2px solid white ; */
-    /* width: fit-content; */
-    /* aspect-ratio: 7/5; */
     aspect-ratio: 3/1;
     overflow: hidden;
     cursor: pointer;
-    /* width: 100px; */
-    
+
 }
 
 
-.img-item{
+.img-item {
     width: 100%;
     height: 100%;
     object-fit: cover;
 
 }
-.text-item{
+
+.text-item {
     display: flex;
     align-items: center;
     background-color: #272727;
     width: 100%;
     height: 100%;
     padding: .5rem 10px;
-    
+
     /* position: absolute;
     bottom: 0;
     height: 4rem;
     left: 0;
     justify-content: center; */
 }
-.link-item{
+
+.link-item {
     position: absolute;
     top: 0;
     left: 0;
@@ -79,24 +81,18 @@
     width: 100%;
     /* cursor: pointer; */
 }
+
 @media (min-width:768px) {
+
     /* .wrap-portafolio {
         display: flex;
         align-items: center;
         justify-items: center;
         repeat(auto-fit, minmax(200px, 20%)) 
     } */
-    .container-border-shadow{
-        width: min(90%,800px);
+    .container-border-shadow {
+        width: min(90%, 800px);
     }
-    
-    
+
+
 }
-           
-/* @media (max-width:575px) {
-    .pc-container-grid{
-
-        
-    }
-
-}  */

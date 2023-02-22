@@ -19,19 +19,19 @@ export class MenuComponent {
     },
     {
       nombre: 'Estudio',
-      ruta: '/portafolio',
+      ruta: '/sobre-mi',
       img: './assets/svg/book.svg'
     },
     {
       nombre: 'Sobre mi',
-      ruta: '/curriculum',
+      ruta: '/sobre-mi',
       img: './assets/svg/about_me.svg'
     },
-    {
-      nombre: 'CV',
-      ruta: '/cv',
-      img: './assets/svg/about_me.svg'
-    }
+    // {
+    //   nombre: 'CV',
+    //   ruta: '/cv',
+    //   img: './assets/svg/about_me.svg'
+    // }
 
   ]
 
