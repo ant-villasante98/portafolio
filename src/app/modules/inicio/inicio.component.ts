@@ -12,6 +12,17 @@ export class InicioComponent implements OnInit {
 
   presentacionNombre = ''
   presentacionOcupacio = ''
+
+  redesSociale = [
+    {
+      icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg',
+      link: 'https://www.linkedin.com/in/hel%C3%AD-antonio-villasante-hilares-96465b263/'
+    },
+    {
+      icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg',
+      link: 'https://github.com/ant-villasante98'
+    }
+  ]
   constructor() {
   }
 

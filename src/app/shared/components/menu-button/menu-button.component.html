@@ -4,7 +4,7 @@
         <div class="wrap-img-buttom {{img.trim()?'':'not-img'}}">
             <img class="img-buttom" [src]="img" alt="{{nombre}}">
         </div>
-        <span>{{nombre}}</span>
+        <span *ngIf="nombre">{{nombre}}</span>
     </div>
 </a>
 <!-- </div> -->

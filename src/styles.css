@@ -17,12 +17,14 @@
     --color-contrast-page: transparent;
     --color-bg-area-name: transparent;
     --color-shade-page: #B85C38;
-    --color-cv-contrast-text:#fefffe;
+    --color-cv-contrast-text: #fefffe;
 }
-*{
+
+* {
     box-sizing: border-box;
     margin: 0;
 }
+
 html {
     line-height: 1.15;
     /* 1 */
@@ -42,7 +44,6 @@ body {
     margin: 0;
     font-family: 'Ubuntu', sans-serif;
     color: #fefffe;
-    width: 100vw;
 
 }
 
@@ -148,6 +149,7 @@ samp {
 small {
     font-size: 80%;
 }
+
 ul {
     margin: 0;
     list-style-type: none;
@@ -163,7 +165,7 @@ li {
  * all browsers.
  */
 
- a {
+a {
     text-decoration: none;
     color: var(--color-cv-contrast-text);
- }
+}
