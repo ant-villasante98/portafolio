@@ -20,7 +20,7 @@
 }
 
 .ic-container-inicio {
-    overflow: hidden;
+    /* overflow: hidden; */
     position: relative;
     height: 100%;
 
@@ -29,32 +29,6 @@
 
 }
 
-
-.text-start {
-    display: block;
-    text-align: center;
-
-    font-size: 1.9rem;
-    font-weight: 700;
-    overflow: hidden;
-
-    margin-top: .5rem;
-}
-
-.text-start span {
-    margin-bottom: 20px;
-}
-
-.sl {
-    display: block;
-}
-
-.promt-text-start-animation {
-    font-family: inherit;
-    font-weight: 900;
-    animation: promt 1s normal infinite;
-
-}
 
 @keyframes promt {
     50% {
@@ -70,54 +44,61 @@
     }
 }
 
-.ic-container-imag {
-    display: flex;
-    /* padding: 1rem; */
-    flex-direction: column;
-    justify-content: flex-end;
-
-    margin: auto;
-    position: absolute;
-    width: 100%;
 
 
-    left: 0;
-    bottom: 2rem;
-
-
-}
-
-.ic-img-perfil {
-    position: relative;
-    margin: auto;
+/* estilos del svg */
+.backgroud-svg {
+    max-width: 100%;
     width: min-content;
-}
-
-
-
-.ic-img-perfil img {
-    border-radius: 50%;
-    width: 12rem;
-}
-
-.container-networks {
-    display: flex;
-    flex-wrap: wrap;
-    width: max-content;
-    margin: auto;
-}
-
-/* .link-network {
-} */
-
-.container-img-network {
-    width: 50px;
-}
-
-.img-network {
+    position: relative;
     height: 100%;
-    aspect-ratio: 1/1;
 }
+
+.backgroud-svg svg {
+    width: min-content;
+    height: 100%;
+}
+
+/* estilos de las areas de mensaje */
+
+.area-mensajes {
+    position: absolute;
+    padding-bottom: 1rem;
+    bottom: 25%;
+    left: 2.5rem;
+}
+
+.container-mesage-tag {
+    position: relative;
+    background-color: rgb(75, 75, 75);
+    min-width: 4rem;
+    width: fit-content;
+    min-height: 3rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 1.5rem;
+
+}
+
+.mesage {
+    font-size: 1.2rem;
+    /* font-weight: 600; */
+    color: white;
+}
+
+
+.puntero-nube {
+    display: inline-block;
+    position: absolute;
+    top: 100%;
+    left: 1rem;
+    border-top: 1rem solid rgb(75, 75, 75);
+    border-right: 1.3rem solid transparent;
+    /* border-top-color: white; */
+}
+
+
+
 
 @media (min-width:575px) {
 
@@ -127,14 +108,4 @@
 
     }
 
-
-    .ic-container-imag {
-        bottom: 5rem;
-        right: 10px;
-        margin: auto;
-    }
-
-    .container-networks {
-        top: 9rem;
-    }
 }
