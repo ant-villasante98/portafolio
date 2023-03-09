@@ -5,6 +5,8 @@
     height: 100%;
     align-items: center;
     justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .ic-wrap-inicio {
@@ -13,7 +15,7 @@
     box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3), 4px 8px 20px rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(6px);
     width: max(90%, 300px);
-    height: 32rem;
+    height: 34rem;
 
 
 
@@ -23,6 +25,10 @@
     /* overflow: hidden; */
     position: relative;
     height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
 
 
     padding: 1.5rem;
@@ -30,7 +36,7 @@
 }
 
 
-@keyframes promt {
+/* @keyframes promt {
     50% {
         opacity: 1;
     }
@@ -42,12 +48,12 @@
     100% {
         opacity: 0;
     }
-}
+} */
 
 
 
 /* estilos del svg */
-.backgroud-svg {
+/* .backgroud-svg {
     max-width: 100%;
     width: min-content;
     position: relative;
@@ -57,26 +63,31 @@
 .backgroud-svg svg {
     width: min-content;
     height: 100%;
-}
+} */
 
 /* estilos de las areas de mensaje */
 
 .area-mensajes {
-    position: absolute;
+    /* position: absolute; */
     padding-bottom: 1rem;
-    bottom: 25%;
-    left: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    width: min(100%, 275px);
+    justify-content: flex-end;
+
 }
 
 .container-mesage-tag {
+    display: none;
     position: relative;
-    background-color: rgb(75, 75, 75);
+    background-color: rgb(39, 39, 39);
     min-width: 4rem;
     width: fit-content;
     min-height: 3rem;
     padding: 1rem;
     border-radius: 1rem;
     margin-bottom: 1.5rem;
+    opacity: 0;
 
 }
 
@@ -92,11 +103,16 @@
     position: absolute;
     top: 100%;
     left: 1rem;
-    border-top: 1rem solid rgb(75, 75, 75);
+    border-top: 1rem solid rgb(39, 39, 39);
     border-right: 1.3rem solid transparent;
     /* border-top-color: white; */
 }
 
+.show {
+
+    display: block;
+    opacity: 1;
+}
 
 
 
@@ -106,6 +122,28 @@
         width: min(90%, 600px);
         height: 500px;
 
+    }
+
+    .area-mensajes {
+        align-items: center;
+    }
+
+    .container-mesage-tag {
+        display: block;
+    }
+
+    .container-mesage-tag .puntero-nube {
+        display: none;
+    }
+
+    .messasge-photo,
+    .messasge-photo img {
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
+    .mesage {
+        font-size: 600;
     }
 
 }
