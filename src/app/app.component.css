@@ -31,7 +31,7 @@
 }
 
 .main-wrap {
-    min-height: calc(100vh - 4rem);
+    height: calc(100vh - 4rem);
     position: relative;
     width: 100%;
 }
