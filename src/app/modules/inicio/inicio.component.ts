@@ -8,7 +8,9 @@ import { AfterContentInit, Component, OnInit } from '@angular/core';
 export class InicioComponent implements OnInit {
   nombre = 'Hola, soy Antonio Villasante  ';
   ocupacion = 'Front-end Developer'
-  saltoLinea = false
+  // saltoLinea = false
+  latencia1 = false
+  latencia2 = false
 
   presentacionNombre = ''
   presentacionOcupacio = ''
@@ -46,16 +48,18 @@ export class InicioComponent implements OnInit {
   }
   async cargarTextoPresentacion() {
 
-    for (let i of [...this.nombre]) {
+    for (let i of [...this.nombre, '']) {
       await this.devolverLetraLatencia()
       this.presentacionNombre += i;
     };
-    this.saltoLinea = true;
+    // this.saltoLinea = true;
+    this.latencia1 = true
 
-    for (let i of [...this.ocupacion]) {
+    for (let i of [...this.ocupacion, '']) {
       await this.devolverLetraLatencia()
       this.presentacionOcupacio += i;
     };
+    this.latencia2 = true
 
   }
 
