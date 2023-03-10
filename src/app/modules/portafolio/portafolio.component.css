@@ -30,12 +30,10 @@
 
 .pc-container-grid {
     display: grid;
-    /* grid-template-columns: minmax(250px,90%); */
     grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr));
     justify-content: center;
     gap: 20px;
     padding: 0 10px;
-    /* padding: 0 40px; */
     width: 100%;
 }
 
@@ -66,11 +64,6 @@
     height: 100%;
     padding: .5rem 10px;
 
-    /* position: absolute;
-    bottom: 0;
-    height: 4rem;
-    left: 0;
-    justify-content: center; */
 }
 
 .link-item {
@@ -79,17 +72,11 @@
     left: 0;
     height: 100%;
     width: 100%;
-    /* cursor: pointer; */
 }
 
 @media (min-width:768px) {
 
-    /* .wrap-portafolio {
-        display: flex;
-        align-items: center;
-        justify-items: center;
-        repeat(auto-fit, minmax(200px, 20%)) 
-    } */
+
     .container-border-shadow {
         width: min(90%, 800px);
     }
