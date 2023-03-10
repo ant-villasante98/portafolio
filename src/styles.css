@@ -11,9 +11,6 @@
 :root {
     --color-bg-body: #E0C097;
     --color-bg-page: #E0C097;
-    /* --color-contrast-page: #2D2424; */
-    /* color de la ventan de la terminal
-    --color-contrast-page: #232223; */
     --color-contrast-page: transparent;
     --color-bg-area-name: transparent;
     --color-shade-page: #B85C38;
