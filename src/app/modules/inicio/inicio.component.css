@@ -137,7 +137,9 @@
         display: none;
     }
 
-    .text-start {
-        text-align: start;
+    .messasge-photo,
+    .messasge-photo img {
+        border-radius: 50%;
+        overflow: hidden;
     }
 }
