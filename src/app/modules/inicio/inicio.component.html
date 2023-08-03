@@ -12,12 +12,19 @@
                     <span class="puntero-nube"></span>
                 </div>
                 <div class="container-mesage-tag {{latencia2?'show':''}} messasge-photo">
-                    <div class="mesage"><img src="./assets/img/foto_perfil.jpg" alt="" width="220px"></div>
-                    <div class="networkes">
+                    <div class="mesage">
+                        <div class="networkes">
+                            <div *ngFor="let rs of redesSociale">
+                                <a href="{{rs.link}}" target="_blank"><img src="{{rs.icon}}" alt="" width="40px"></a>
+                            </div>
+                        </div>
+                        <img id="foto-perfil" src="./assets/img/foto_perfil.jpg" alt="" width="220px">
+                    </div>
+                    <!-- <div class="networkes">
                         <div *ngFor="let rs of redesSociale">
                             <a href="{{rs.link}}" target="_blank"><img src="{{rs.icon}}" alt="" width="40px"></a>
                         </div>
-                    </div>
+                    </div> -->
                     <span class="puntero-nube"></span>
                 </div>
 

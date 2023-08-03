@@ -95,12 +95,14 @@
     gap: 1rem;
     margin-bottom: 0;
     background-color: transparent;
+    padding: 0;
+    margin: auto;
 }
 
 .messasge-photo .mesage {
     overflow: hidden;
     aspect-ratio: 1;
-    width: 180px;
+    width: 220px;
     border-radius: 1rem;
 }
 
@@ -108,7 +110,7 @@
     display: none;
 }
 
-.messasge-photo .mesage img {
+#foto-perfil {
     object-fit: cover;
     object-position: center;
     border-radius: 50%;
@@ -120,10 +122,13 @@
 }
 
 .networkes {
+    position: absolute;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 1rem;
+    width: 100%;
+    height: 100%;
+    padding: 0 .5rem;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .show {

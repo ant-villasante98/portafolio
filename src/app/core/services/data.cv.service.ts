@@ -42,7 +42,6 @@ export interface Person {
 })
 export class DataCvService {
   dataPerson: Person = dataCvJson;
-  // private observablePersonDataPrivate: BehaviorSubject<Person> = new BehaviorSubject(this.dataPerson);
 
   constructor() {
 
@@ -51,11 +50,5 @@ export class DataCvService {
   get observablePersonData(): Observable<Person> {
     return of(this.dataPerson)
   }
-  /* get observablePersonData() {
-    return this.observablePersonDataPrivate.asObservable();
-  } */
-  /* set observablePersonDataData(data: Person) {
-    this.observablePersonDataPrivate.next(data);
 
-  } */
 }

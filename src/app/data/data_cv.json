@@ -1,91 +1,103 @@
 {
-    "img_cv":"",
-    "name": "helí antonio villasante hilares",
-    "job": "programador web",
-    "date_birth":"1998-12-10T00:00:00.0000",
-    "city_rescid":"Córdoba, Córdoba, Argentina",
-    "contact":{
-        "email":"hilares33v@gmail.com",
-        "telf1":"+54 9 351-6573667",
-        "telf2":"+54 9 351-8187890"
-        },
-    "pers_desc": "Estudiante de Ingeniería en Sistemas de Información con gran interés en el desarrollo de software. Tengo capacidad de esforzarme para crear soluciones y muchas ganas de aprender. En busca de una oportunidad laboral en la que adquirir mas experiencia.",
-    "education": [
-        {
-            "career":"ingeniería en sistemas de información",
-            "institution":"Universidad Tecnológica Nacional",
-            "start_date":"2018-03-01T18:25:43.0000",
-            "in_progress":true,
-            "end_date":""
-        }
-    ] ,
-    "technical_skills":[
-        {
-            "imag_tech":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
-            "name_skill":"HTML5",
-            "nivel_skill":5
-        },
-        {
-            "imag_tech":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
-            "name_skill":"CSS3",
-            "nivel_skill":4
-        },
-        {
-            "imag_tech":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg",
-            "name_skill":"JavaScript",
-            "nivel_skill":6
-        },{
-            "imag_tech":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg",
-            "name_skill":"TypeScript",
-            "nivel_skill":6
-        },
-        {   
-            "imag_tech":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-plain.svg",
-            "name_skill":"Angular",
-            "nivel_skill":7
-        },
-        {
-            "imag_tech":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
-            "name_skill":"Express.js",
-            "nivel_skill":4
-        },
-        {
-            "imag_tech":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg",
-            "name_skill":"Webpack",
-            "nivel_skill":5
-        },
-        {
-            "imag_tech":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
-            "name_skill":"Node.js",
-            "nivel_skill":6
-        },
-        {
-            "imag_tech":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
-            "name_skill":"Mongoose",
-            "nivel_skill":3
-        },
-        {
-            "imag_tech":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
-            "name_skill":"Git",
-            "nivel_skill":5
-        },
-        {
-            "imag_tech":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
-            "name_skill":"GitHut",
-            "nivel_skill":3
-        },
-        {
-            "imag_tech":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ubuntu/ubuntu-plain.svg",
-            "name_skill":"Ubuntu",
-            "nivel_skill":5
-        }
-    ],
+  "img_cv": "assets/img/foto_perfil.jpg",
+  "name": "helí antonio villasante hilares",
+  "job": "programador web",
+  "date_birth": "1998-12-10T00:00:00.0000",
+  "city_rescid": "Córdoba, Córdoba, Argentina",
+  "contact": {
+    "email": "hilares33v@gmail.com",
+    "telf1": "+54 9 351-6573667",
+    "telf2": "+54 9 351-8187890"
+  },
+  "pers_desc": "Estudiante de Ingeniería en Sistemas de Información con gran interés en el desarrollo de software. Tengo capacidad de esforzarme para crear soluciones y muchas ganas de aprender. En busca de una oportunidad laboral en la que adquirir mas experiencia.",
+  "education": [
+    {
+      "career": "ingeniería en sistemas de información",
+      "institution": "Universidad Tecnológica Nacional",
+      "start_date": "2018-03-01T18:25:43.0000",
+      "in_progress": true,
+      "end_date": ""
+    }
+  ],
+  "technical_skills": [
+    {
+      "imag_tech": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+      "name_skill": "HTML5",
+      "nivel_skill": 5
+    },
+    {
+      "imag_tech": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+      "name_skill": "CSS3",
+      "nivel_skill": 4
+    },
+    {
+      "imag_tech": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg",
+      "name_skill": "JavaScript",
+      "nivel_skill": 6
+    },
+    {
+      "imag_tech": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg",
+      "name_skill": "TypeScript",
+      "nivel_skill": 6
+    },
+    {
+      "imag_tech": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-plain.svg",
+      "name_skill": "Angular",
+      "nivel_skill": 7
+    },
+    {
+      "imag_tech": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+      "name_skill": "Express.js",
+      "nivel_skill": 4
+    },
+    {
+      "imag_tech": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg",
+      "name_skill": "Webpack",
+      "nivel_skill": 5
+    },
+    {
+      "imag_tech": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+      "name_skill": "Node.js",
+      "nivel_skill": 6
+    },
+    {
+      "imag_tech": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+      "name_skill": "Mongoose",
+      "nivel_skill": 3
+    },
+    {
+      "imag_tech": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+      "name_skill": "Git",
+      "nivel_skill": 5
+    },
+    {
+      "imag_tech": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+      "name_skill": "GitHut",
+      "nivel_skill": 3
+    },
+    {
+      "imag_tech": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ubuntu/ubuntu-plain.svg",
+      "name_skill": "Ubuntu",
+      "nivel_skill": 5
+    }
+  ],
   "wok_exper": [],
-  "ability": ["honestidad", "deseo de desarrollo profesional" , "creatividad", "aprendizaje continuo", "resolución de conflictos", "flexibilidad para poder adaptarse a las propuestas de otros compañeros"],
-  "projects": ["proyecto de la facultad desarrollado en Angular","apoyo a proyectos independientes"],
+  "ability": [
+    "honestidad",
+    "deseo de desarrollo profesional",
+    "creatividad",
+    "aprendizaje continuo",
+    "resolución de conflictos",
+    "flexibilidad para poder adaptarse a las propuestas de otros compañeros"
+  ],
+  "projects": [
+    "proyecto de la facultad desarrollado en Angular",
+    "apoyo a proyectos independientes"
+  ],
   "lang": ["españos -nativo"],
-  "voluntary_work": ["club de Leones - actividades de apoyo a la comunidad",
-	"capilla Nuestra Señora Perpetuo Socorro - actividades de apoyo a la comunidad, ayudante en talleres de música"],
+  "voluntary_work": [
+    "club de Leones - actividades de apoyo a la comunidad",
+    "capilla Nuestra Señora Perpetuo Socorro - actividades de apoyo a la comunidad, ayudante en talleres de música"
+  ],
   "hobbies": "Tocar guitarra, escuchar música, salir a pasear, yoga, aprender a cantar, ver comedia"
-    
 }

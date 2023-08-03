@@ -9,11 +9,6 @@ const routes: Routes = [
     loadChildren: () => import('./modules/portafolio/portafolio.module').then(m => m.PortafolioModule)
   },
   {
-    path: 'cv',
-    title: 'CV',
-    loadChildren: () => import('./modules/curriculum/curriculum.module').then(m => m.CurriculumModule)
-  },
-  {
     path: 'inicio',
     title: 'Antonio Villasante',
     loadChildren: () => import('./modules/inicio/inicio.module').then(m => m.InicioModule)
