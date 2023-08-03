@@ -22,6 +22,7 @@ const routes: Routes = [
     redirectTo: '/inicio',
     pathMatch: 'full'
   },
+  { path: 'skills', loadChildren: () => import('./modules/skills/skills.module').then(m => m.SkillsModule) },
   {
     path: '**',
     component: InicioComponent
