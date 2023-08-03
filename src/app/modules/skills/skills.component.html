@@ -3,13 +3,43 @@
         <p class="text-name-container">Skills</p>
         <div class="grid-skills">
             <div class="item-grid">
+
                 <h3 class="title-item">Lenguajes Programcion</h3>
                 <div class="item--flex-container">
-                    <div>
-
+                    <div *ngFor="let pl of skillsItems.programming_lenguages">
+                        <img class="elem-imag-skill" [src]="pl.imag_tech" [alt]="pl.name_skill" srcset="" height="55px">
+                        <p class="elem-name-skill">{{pl.name_skill}}</p>
                     </div>
                 </div>
             </div>
+            <div class="item-grid">
+                <h3 class="title-item">Frameworks</h3>
+                <div class="item--flex-container">
+                    <div *ngFor="let fw of skillsItems.frameworks">
+                        <img class="elem-imag-skill" [src]="fw.imag_tech" [alt]="fw.name_skill" srcset="">
+                        <p class="elem-name-skill">{{fw.name_skill}}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item-grid">
+                <h3 class="title-item">Bases de Datos</h3>
+                <div class="item--flex-container">
+                    <div *ngFor="let db of skillsItems.data_bases">
+                        <img class="elem-imag-skill" [src]="db.imag_tech" [alt]="db.name_skill" srcset="">
+                        <p class="elem-name-skill">{{db.name_skill}}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item-grid">
+                <h3 class="title-item">Otros</h3>
+                <div class="item--flex-container">
+                    <div *ngFor="let ot of skillsItems.other">
+                        <img class="elem-imag-skill" [src]="ot.imag_tech" [alt]="ot.name_skill" srcset="">
+                        <p class="elem-name-skill">{{ot.name_skill}}</p>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 </div>

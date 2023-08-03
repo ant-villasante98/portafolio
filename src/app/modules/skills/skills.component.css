@@ -24,7 +24,43 @@
 }
 
 .text-name-container {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+/* estilos para las skills */
+.item--flex-container {
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.item--flex-container p {
+    margin: 0;
+    width: 80px;
+}
+
+.grid-skills {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.title-item {
+    margin-bottom: 1rem;
+}
+
+.elem-imag-skill {
+    display: block;
+    margin: auto;
+    height: 55px;
+    margin-bottom: 5px;
+}
+
+.elem-name-skill {
+
+    text-align: center;
+    font-size: .8rem;
     font-weight: 600;
 }
 
@@ -32,6 +68,10 @@
 
     .container-border-shadow {
         width: min(90%, 800px);
+    }
+
+    .grid-skills {
+        grid-template-columns: auto auto;
     }
 
 }

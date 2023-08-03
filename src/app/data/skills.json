@@ -1,0 +1,90 @@
+{
+  "programming_lenguages": [
+    {
+      "imag_tech": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+      "name_skill": "HTML5",
+      "nivel_skill": 5
+    },
+    {
+      "imag_tech": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+      "name_skill": "CSS3",
+      "nivel_skill": 4
+    },
+    {
+      "imag_tech": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg",
+      "name_skill": "JavaScript",
+      "nivel_skill": 6
+    },
+    {
+      "imag_tech": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg",
+      "name_skill": "TypeScript",
+      "nivel_skill": 6
+    },
+    {
+      "imag_tech": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg",
+      "name_skill": "C#",
+      "nivel_skill": 5
+    }
+  ],
+  "frameworks": [
+    {
+      "imag_tech": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-plain.svg",
+      "name_skill": "Angular",
+      "nivel_skill": 7
+    },
+    {
+      "imag_tech": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg",
+      "name_skill": "ASP.Net Core",
+      "nivel_skill": 5
+    },
+    {
+      "imag_tech": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+      "name_skill": "Express.js",
+      "nivel_skill": 4
+    },
+    {
+      "imag_tech": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+      "name_skill": "Node.js",
+      "nivel_skill": 6
+    }
+  ],
+  "data_bases": [
+    {
+      "imag_tech": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain.svg",
+      "name_skill": "PostgreSQL",
+      "nivel_skill": 5
+    },
+    {
+      "imag_tech": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg",
+      "name_skill": "SQL Server",
+      "nivel_skill": 3
+    }
+  ],
+  "other": [
+    {
+      "imag_tech": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+      "name_skill": "Git",
+      "nivel_skill": 5
+    },
+    {
+      "imag_tech": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+      "name_skill": "GitHut",
+      "nivel_skill": 3
+    },
+    {
+      "imag_tech": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",
+      "name_skill": "VSCode",
+      "nivel_skill": 7
+    },
+    {
+      "imag_tech": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ubuntu/ubuntu-plain.svg",
+      "name_skill": "Ubuntu",
+      "nivel_skill": 5
+    },
+    {
+      "imag_tech": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+      "name_skill": "Mongoose",
+      "nivel_skill": 2
+    }
+  ]
+}
