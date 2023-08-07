@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class SobreMiComponent {
 
+  contactar() {
+    console.log(`Funcion para contactar al correo`)
+  }
 }

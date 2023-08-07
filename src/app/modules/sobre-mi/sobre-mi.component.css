@@ -12,7 +12,7 @@
     flex-direction: column;
     gap: 25px;
     align-items: center;
-    padding: 30px 20px 50px;
+    padding: 1.5rem;
     min-width: 310px;
     width: min(95%, 450px);
     height: 100%;
@@ -26,6 +26,10 @@
 .text-name-container {
     font-size: 1.3rem;
     font-weight: 600;
+}
+
+.text-content {
+    text-align: justify;
 }
 
 @media (min-width:768px) {

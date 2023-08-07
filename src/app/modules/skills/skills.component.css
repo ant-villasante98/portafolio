@@ -12,7 +12,7 @@
     flex-direction: column;
     gap: 25px;
     align-items: center;
-    padding: 30px 20px 50px;
+    padding: 1.5rem 1rem;
     min-width: 310px;
     width: min(95%, 450px);
     height: 100%;
@@ -46,8 +46,14 @@
     gap: 1.5rem;
 }
 
+.item-grid {
+    border-left: 1px solid white;
+}
+
 .title-item {
-    margin-bottom: 1rem;
+    text-decoration: underline;
+    padding-left: 1rem;
+    margin-bottom: .5rem;
 }
 
 .elem-imag-skill {
